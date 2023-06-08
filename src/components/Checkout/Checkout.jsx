@@ -14,23 +14,18 @@ const Checkout = () => {
   const [error, setError] = useState("");
   const [ordenId, setOrdenId] = useState("");
 
-
   const manejadorFormulario = (event) => {
     event.preventDefault();
-
 
     if (!nombre || !apellido || !telefono || !email || !emailConfirmacion) {
       setError("Por favor complete todos los campos");
       return;
     }
 
-
     if (email !== emailConfirmacion) {
       setError("Los campos del email no coinciden");
       return;
     }
-
-
 
     const orden = {
       items: carrito.map((producto) => ({
@@ -48,7 +43,6 @@ const Checkout = () => {
       email,
       fecha: new Date(),
     };
-
 
     Promise.all(
       orden.items.map(async (productoOrden) => {
@@ -89,9 +83,11 @@ const Checkout = () => {
               {producto.item.nombre} x {producto.cantidad}
             </p>
             <p> Precio: ${producto.item.precio} </p>
-            <p>Total Compra: ${total.toFixed(3)}</p>
+            <hr />
           </div>
         ))}
+        <p>Total Compra: ${total.toFixed(3)}</p>
+        <hr />
         <div className="formulario"></div>
         <div className="form-group">
           <label htmlFor=""> Nombre </label>
