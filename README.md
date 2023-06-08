@@ -1,4 +1,4 @@
-<p align="center"><img width="280px"src="./src/assets/img/logo_readme.png" alt="logo de game over"></p>
+<p align="center"><img width="280px"src="./src/assets/img/logo-readme.png" alt="logo de game over"></p>
 
 ---
 # Game Over
