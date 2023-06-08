@@ -1,0 +1,70 @@
+.cardProducto{
+    color: white;
+    background-color: #191a1a;
+    border: 1px solid #2c0758;
+    width: 220px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0.4s;
+
+}
+.cardProducto:hover {
+    box-shadow: 0rem 0rem 1rem 0.2rem rgb(44,7,88);
+}
+.cardProducto a {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.cardProducto  small {
+    font-size: small;
+    vertical-align: super;
+}
+.cardProductoImage img {
+    width: 100%;
+}
+.cardProducto h3 {
+    font-size: 15px;
+    color: #525153;
+}
+.cardPrecio {
+    height: 50%;
+}
+.cardPrecio h2 {
+    color: #5400bb;
+}
+.cardPrecio p {
+    color: #b0a99f;
+}
+.cardPrecio h2, .cardPrecio p {
+    position: relative;
+    top: 25%;
+}
+.cardPrecio a {
+    background: #5400bb;
+    border-radius: 1rem;
+    padding: 10px;
+    position: relative;
+    top: 45%;
+    font-size: 30px;
+}
+
+.cardProducto h4 {
+    color: #525153;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.sinStock img {
+    filter: grayscale(70%) opacity(70%);
+  }
+
+.textoSinStock {
+    position: relative;
+    bottom: 50%;
+    font-size: 30px;
+    font-weight: 700;
+    color: #b60606;
+}
+  

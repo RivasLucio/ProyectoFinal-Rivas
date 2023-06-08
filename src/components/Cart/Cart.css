@@ -1,0 +1,32 @@
+.carritoCard  {
+    margin-top: 50px;
+    color: white;
+}
+
+.carritoCard  img{
+    width: 6%;
+}
+
+.compra button {
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+}
+.compra a {
+    color: black;
+}
+.compra {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    color: white;
+    gap: 40px;
+}
+
+.compraTotal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

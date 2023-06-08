@@ -1,0 +1,15 @@
+.greeting {
+    color: rgb(147, 0, 245);
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.productosContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productosContainer img {
+  width: 200px;
+}

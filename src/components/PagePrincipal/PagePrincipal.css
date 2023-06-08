@@ -1,0 +1,24 @@
+.pagePrincipalPcContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 60px;
+}
+
+.pagePrincipalPc {
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid transparent;
+  transition: 0.6s;
+}
+
+.pagePrincipalPc:hover {
+  border: 1px solid rgb(125, 6, 204);
+  cursor: pointer;
+}
+
+.pagePrincipal {
+  margin-bottom: 100px;
+}

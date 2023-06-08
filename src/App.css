@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+  
+  }
+  
+  body {
+    padding-top: 155px;
+    background: #180430;
+  }
+  
