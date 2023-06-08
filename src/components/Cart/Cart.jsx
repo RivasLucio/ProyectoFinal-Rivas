@@ -25,14 +25,16 @@ const Cart = () => {
         </div>
       ))}
       <div className="compra">
-        <button onClick={() => vaciarCarrito()}>vaciar carrito</button>
+        <button className="vaciarBtn" onClick={() => vaciarCarrito()}>
+          Vaciar carrito
+        </button>
         <div className="compraTotal">
           <h3>cantidad total: {cantidadTotal}</h3>
           <h3>total : ${total.toFixed(3)}</h3>
         </div>
-        <button>
-          <Link to="/checkout"> finalizar compra</Link>
-        </button>
+        <Link className="finalizarBtn" to="/checkout">
+          <button >Finalizar compra</button>
+        </Link>
       </div>
     </div>
   );

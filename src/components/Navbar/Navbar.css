@@ -86,8 +86,10 @@ hr {
 }
 
 .navbarUnderCategorias li  {
-  color: rgb(253, 248, 238);
   cursor: pointer;
+}
+.navbarUnderCategorias a {
+  color: #c0b9b9;
 }
 
 
