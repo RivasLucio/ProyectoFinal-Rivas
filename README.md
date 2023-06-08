@@ -1,4 +1,6 @@
-<p align="center"><img width="280px"src="./src/assets/img/logo.png" alt="logo de game over"></p>
+<p align="center">
+  <img width="280px" src="./src/assets/img/logo.png" alt="logo de game over" style="filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);">
+</p>
 
 ---
 # Game Over
